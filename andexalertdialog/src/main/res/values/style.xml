@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AndExUpTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowAnimationStyle">@style/AndExUpThemeAnims</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="AndExDownTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowAnimationStyle">@style/AndExDownThemeAnims</item>
+    </style>
+    <style name="AndExUpThemeAnims">
+        <item name="android:windowEnterAnimation">@anim/andex_up_enter</item>
+        <item name="android:windowExitAnimation">@anim/andex_up_exit</item>
+    </style>
+    <style name="AndExDownThemeAnims">
+        <item name="android:windowEnterAnimation">@anim/andex_down_enter</item>
+        <item name="android:windowExitAnimation">@anim/andex_down_exit</item>
+    </style>
+</resources>

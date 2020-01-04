@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_sample_1"
+        style="@style/Buttons"
+        android:text="Simple English Dialog Without Title" />
+
+    <Button
+        android:id="@+id/button_sample_2"
+        style="@style/Buttons"
+        android:text="English Dialog With Image And Title" />
+
+    <Button
+        android:id="@+id/button_sample_3"
+        style="@style/Buttons"
+        android:text="English Dialog With Image And EditText" />
+
+    <Button
+        android:id="@+id/button_sample_4"
+        style="@style/Buttons"
+        android:text="Dialog Only With Image" />
+
+    <Button
+        android:id="@+id/button_sample_5"
+        style="@style/Buttons"
+        android:text="Simple Persian Dialog Without Title" />
+
+    <Button
+        android:id="@+id/button_sample_6"
+        style="@style/Buttons"
+        android:text="Persian Dialog With Image And Title" />
+
+    <Button
+        android:id="@+id/button_sample_7"
+        style="@style/Buttons"
+        android:text="Persian Dialog With Image And EditText" />
+
+
+</LinearLayout>
