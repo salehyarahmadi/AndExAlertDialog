@@ -54,16 +54,12 @@ Step 2. Add the dependency
 
 
     - All of above featuers is optional
-    
     - When you set positive button text, you must set OnPositiveClicked
-    
     - When you set negative button text, you must set OnNegativeClicked
-    
     - for setting image, you have three options:
         1- using image url  --> .setImage("http://image-url/image.jpg" , 20)
         2 -using image file  --> .setImage(new File("image-path-on-device") , 20)
         3- using image resource id in drawable  --> .setImage(R.drawable.image , 20)
-        
     - imagePercent is actually the width of the image in percent
 
 
