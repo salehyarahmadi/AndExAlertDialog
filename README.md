@@ -11,7 +11,7 @@ AndEx Alert Dialog is a library like ios alert dialog with many more features th
 `this library is compatible to androidx`
 
 ## Preview
-![](https://github.com/salehyarahmadi/AndExAlertDialog/andex-alert-dialog.gif)
+![](https://github.com/salehyarahmadi/AndExAlertDialog/blob/master/andex-alert-dialog.gif)
 
 ## Setup
 The simplest way to use this library is to add the library as dependency to your build.
