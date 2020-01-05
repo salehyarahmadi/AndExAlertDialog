@@ -18,7 +18,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="24dp"
-            android:scaleType="fitXY"
+            android:scaleType="fitCenter"
             app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toStartOf="@+id/gl_andex_alert_dialog_layout_image_right"
             app:layout_constraintStart_toStartOf="@+id/gl_andex_alert_dialog_layout_image_left"
