@@ -31,28 +31,31 @@ allprojects {
 
 Step 2. Add the dependency
 
-	dependencies {
-	        implementation 'com.github.salehyarahmadi:AndExAlertDialog:v1.0.1'
-	}
+```gradle
+dependencies {
+	implementation 'com.github.salehyarahmadi:AndExAlertDialog:v1.0.1'
+}
+```
 
 ## Usage
 
-
-    new AndExAlertDialog.Builder(context)
-        .setTitle(title)
-        .setMessage(message)
-        .setPositiveBtnText(positiveText)
-        .setNegativeBtnText(negativeText)
-        .setCancelableOnTouchOutside(boolean)
-        .setFont(Font.IRAN_SANS)
-        .setImage(image, imagePercent)
-        .setEditText(true, false, hintText, InputType.TEXT_MULTI_LINE)
-        .OnPositiveClicked(positiveClickListener)
-        .OnNegativeClicked(negativeClickListener)
-        .setTitleTextColor(color)
-        .setMessageTextColor(color)
-        .setButtonTextColor(color)
-        .build();
+```java
+new AndExAlertDialog.Builder(context)
+    .setTitle(title)
+    .setMessage(message)
+    .setPositiveBtnText(positiveText)
+    .setNegativeBtnText(negativeText)
+    .setCancelableOnTouchOutside(boolean)
+    .setFont(Font.IRAN_SANS)
+    .setImage(image, imagePercent)
+    .setEditText(true, false, hintText, InputType.TEXT_MULTI_LINE)
+    .OnPositiveClicked(positiveClickListener)
+    .OnNegativeClicked(negativeClickListener)
+    .setTitleTextColor(color)
+    .setMessageTextColor(color)
+    .setButtonTextColor(color)
+    .build();
+```
 
 
     - All of above featuers is optional
