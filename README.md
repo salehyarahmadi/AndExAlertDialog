@@ -20,12 +20,14 @@ The simplest way to use this library is to add the library as dependency to your
 
 Add it in your root build.gradle at the end of repositories:
 
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+```gradle
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
+```
 
 Step 2. Add the dependency
 
